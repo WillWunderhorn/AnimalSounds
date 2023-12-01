@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ds5678.Modding.TLD.ModSettings" Version="1.9.0" />
+    <PackageReference Include="STBlade.Modding.TLD.Il2CppAssemblies.Windows" Version="2.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>C:\Users\UserWin10SP1\.nuget\packages\harmonyx\2.10.1\lib\netstandard2.0\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>C:\Users\UserWin10SP1\.nuget\packages\stblade.modding.tld.il2cppassemblies.windows\2.10.0\lib\net6.0\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>C:\SteamLibrary\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem">
+      <HintPath>C:\SteamLibrary\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>C:\SteamLibrary\steamapps\common\TheLongDark\MelonLoader\net6\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Users\UserWin10SP1\.nuget\packages\stblade.modding.tld.il2cppassemblies.windows\2.10.0\lib\net6.0\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\SteamLibrary\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
