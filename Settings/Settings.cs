@@ -17,7 +17,7 @@ namespace AnimalSounds
 
         internal enum AnimalType
         {
-            Wolf, TimberWolf, Stag, Bear, Moose, Human
+            Wolf, TimberWolf, Stag, Bear, Human
         }
     }
 }
