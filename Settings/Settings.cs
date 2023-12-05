@@ -7,13 +7,13 @@ namespace AnimalSounds
     {
         public static Settings Instance { get; } = new Settings();
 
-        [Name("Howl key")]
-        [Description("Select the key for howling (Default 'Q')")]
+        [Name("Key")]
+        [Description("Select the key (Default 'Q')")]
         public KeyCode howlButton = KeyCode.Q;
 
         [Name("Animal type")]
-        [Description("Select the animal (Default 'Wolf')")]
-        public Settings.AnimalType animalType = Settings.AnimalType.Wolf;
+        [Description("Select the animal (Default 'Human')")]
+        public Settings.AnimalType animalType = Settings.AnimalType.Human;
 
         internal enum AnimalType
         {
