@@ -15,6 +15,7 @@ namespace AnimalSounds
         [Description("Select the animal (Default 'Human')")]
         public Settings.AnimalType animalType = Settings.AnimalType.Human;
 
+
         internal enum AnimalType
         {
             Wolf, TimberWolf, Stag, Bear, Human
