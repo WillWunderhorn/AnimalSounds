@@ -2,7 +2,7 @@
 
 This is a mod for **The Long Dark** by Hinterland Studio, Inc.
 
-This mode will let you make an animal sounds
+Now you can make an animal sounds when specific type of animal is close to you
 
 ## Installation
 
