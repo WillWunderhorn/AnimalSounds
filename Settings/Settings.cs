@@ -8,8 +8,8 @@ namespace AnimalSounds
         public static Settings Instance { get; } = new Settings();
 
         [Name("Howl key")]
-        [Description("Select the key for howling (Default 'H')")]
-        public KeyCode howlButton = KeyCode.H;
+        [Description("Select the key for howling (Default 'Q')")]
+        public KeyCode howlButton = KeyCode.Q;
 
         [Name("Animal type")]
         [Description("Select the animal (Default 'Wolf')")]
