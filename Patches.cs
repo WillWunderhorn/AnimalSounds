@@ -34,6 +34,7 @@ namespace AnimalSounds
                         isOKeyDown = true;
                     }
 
+
                     if (isOKeyDown)
                     {
                         if (Settings.Instance.animalType == Settings.AnimalType.TimberWolf)
