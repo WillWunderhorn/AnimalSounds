@@ -45,6 +45,10 @@ namespace AnimalSounds
                         {
                             GameAudioManager.PlaySound(EVENTS.PLAY_DEERATTACK, GameManager.GetPlayerObject());
                         }
+                        else if (Settings.Instance.animalType == Settings.AnimalType.Moose)
+                        {
+                            GameAudioManager.PlaySound(EVENTS.PLAY_MOOSEATTACK, GameManager.GetPlayerObject());
+                        }
                         else if (Settings.Instance.animalType == Settings.AnimalType.Wolf)
                         {
                             GameAudioManager.PlaySound(EVENTS.PLAY_WOLFHOWL, GameManager.GetPlayerObject());
