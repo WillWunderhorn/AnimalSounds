@@ -2,7 +2,7 @@
 
 This is a mod for **The Long Dark** by Hinterland Studio, Inc.
 
-Now you can make an animal sounds when specific type of animal is close to you
+This mod is designed for an immersive experience of being part of nature. It allows you to make animal sounds whenever a specific type of animal is nearby. (Additionally, you can even howl with wolves during the nights)
 
 ## Installation
 
