@@ -9,7 +9,7 @@ namespace AnimalSounds
     class Implementation : MelonMod
     {
         private static float lastKeyPressTime = 0f;
-        private static bool isOKeyDown = false;
+        private static bool isOKeyDown = false; 
         private static float cooldownDuration = 5f;
 
         public override void OnInitializeMelon()

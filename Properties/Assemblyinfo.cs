@@ -14,8 +14,8 @@ using System.Reflection;
 internal static class BuildInfo
 {
     internal const string ModName = "AnimalSounds";
-    internal const string ModAuthor = "Wunderhorn";
-    internal const string ModVersion = "1.2.0";
+    internal const string ModAuthor = "LittleWolfStorm"; 
+    internal const string ModVersion = "1.3.0";
 }
 
 
